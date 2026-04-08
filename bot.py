@@ -49,8 +49,8 @@ async def main():
 
     logger.info("Scheduler running. Waiting for 12:00 Almaty...")
 
-    # Uncomment to send immediately on startup (for testing):
-     await send_digest(bot)
+    # Send immediately on startup (for testing):
+    await send_digest(bot)
 
     try:
         while True:
